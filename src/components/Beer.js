@@ -56,9 +56,8 @@ const Bubble = styled.div`
   animation: ${floating} 3s linear forwards;
 `;
 
-const ShadowDiv = () => {
+const Beer = () => {
   const [bubbles, setBubbles] = useState([]);
-  console.log(bubbles);
 
   function addBubble() {
     setBubbles((v) => [
@@ -101,4 +100,4 @@ const ShadowDiv = () => {
   );
 };
 
-export default ShadowDiv;
+export default Beer;

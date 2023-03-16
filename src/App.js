@@ -1,10 +1,10 @@
-import ShadowDiv from "./components/ShadowDiv";
+import Beer from "./components/Beer";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <ShadowDiv />
+      <Beer />
     </div>
   );
 }
