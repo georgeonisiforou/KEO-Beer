@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes floating {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-110vh);
+  }
+}
+
+.bubble {
+  aspect-ratio: 1/1;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10px;
+  transform: translateY(0);
+  animation: floating 3s linear forwards;
+  filter: blur(1px);
+}
